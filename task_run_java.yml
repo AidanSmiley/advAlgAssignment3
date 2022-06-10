@@ -1,0 +1,13 @@
+---
+platform: linux
+
+image_resource:
+  type: docker-image
+  source: {respository: alpine-java, tag: 8_jdk}
+  
+inputs:
+  - name: resource-advAlgAssignment3
+  
+run:
+  path: ls
+  args: ["-alR"]
