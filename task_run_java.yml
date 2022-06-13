@@ -9,4 +9,6 @@ inputs:
   - name: resource-advalgassignment3
   
 run:
-  path: resource-advalgassignment3/task_run_java.sh
+  path: /bin/sh
+  args:
+  - resource-advalgassignment3/task_run_java.sh
